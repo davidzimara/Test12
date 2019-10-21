@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
     fun increment(view: View) {
        binding.counterVal++
-        println("Increment!")
+        println("Increments!")
         Log.d("Main_Activity", "Counter value: " + binding.counterVal)
     }
 
